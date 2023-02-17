@@ -75,7 +75,7 @@
 .redes-container ul li a{
     display: block;
     padding: 0 10px;
-    background: grey;
+    background: black;
     color: white;
     line-height: 50px;
     font-size: 18px;
@@ -116,3 +116,98 @@ th, tr{
 thead{
     background-color: silver;
 }
+
+/* formulario */
+
+.contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: grey; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: grey; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  .submit{
+    display: grid;
+    align-items: end;
+    height: 45px; 
+    text-align: center; 
+    text-transform: uppercase;
+    background-color: silver; 
+    border-color: grey; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 100px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: black; 
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+  }
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
